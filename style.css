@@ -28,19 +28,26 @@ ul li > a{
     color: #fff;
     text-decoration: none;
 }
-div p{
+div .intro{
     display: flex;
     justify-content: center;
     color: rgba(137, 43, 226, 0.269);
     font-weight: 900;
     font-size: 30px;
 }
-div > p:hover{
+div > .intro:hover{
     color: rgb(137, 43, 226);
+}
+section .artigos{
+    display: flex;
+}
+section .titulo{
+   text-align: center;
 }
 article{
     display: flex;
     flex-direction: column;
+    width: 30%;
 }
 article img{
     width: 30%;
