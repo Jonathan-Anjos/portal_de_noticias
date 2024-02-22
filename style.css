@@ -31,24 +31,27 @@ ul li > a{
 div .intro{
     display: flex;
     justify-content: center;
-    color: rgba(137, 43, 226, 0.269);
+    color: rgba(9, 5, 244, 0.418);
     font-weight: 900;
     font-size: 30px;
 }
-div > .intro:hover{
-    color: rgb(137, 43, 226);
+section .titulo{
+   text-align: center;
+   color: #575555;
+}
+section .titulo:hover{
+    color: #000000;
 }
 section .artigos{
     display: flex;
-}
-section .titulo{
-   text-align: center;
+    flex-wrap: wrap;
 }
 article{
     display: flex;
     flex-direction: column;
     width: 30%;
+    margin-left: 40px;
 }
 article img{
-    width: 30%;
+    width: 50%;
 }
