@@ -9,8 +9,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 16px 0;
-    margin-bottom: 16px;
-    background-color: rgb(38, 11, 61);
+    background-color: #260b3d;
 }
 header h1{
     font-weight: 900;
@@ -31,16 +30,21 @@ ul li > a{
 div .intro{
     display: flex;
     justify-content: center;
-    color: rgba(9, 5, 244, 0.418);
+    color: rgba(255, 255, 255, 0.418);
+    background-color: #260b3d;
     font-weight: 900;
     font-size: 30px;
 }
+section{
+    padding: 60px 0px;
+}
 section .titulo{
+    padding: 20px 0px;
    text-align: center;
-   color: #575555;
+   color: #420f0f;
 }
 section .titulo:hover{
-    color: #000000;
+    color: #951919;
 }
 section .artigos{
     display: flex;
@@ -54,4 +58,20 @@ article{
 }
 article img{
     width: 50%;
+}
+
+#economia{
+    background-color: #08a34163;
+}
+#esportes{
+    background-color: #0929cb5f;
+}
+#tecnologia{
+    background-color: #ffff0076;
+}
+#entretenimento{
+    background-color: #ff000060;
+}
+#ciencia{
+    background-color: #8000806d;
 }
